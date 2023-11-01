@@ -1,0 +1,20 @@
+package com.example.basic.conditionalStatements.Switch;
+
+import java.util.Scanner;
+
+public class Alarm5 {
+
+	public static void main(String[] args) {
+		try (Scanner scn = new Scanner(System.in)) {
+			System.out.println("Enter a day:");
+			String day=scn.next();
+//switch with : and yield, break cannot be used here
+			String alarm=switch(day.toLowerCase()) {
+			case "saturday","sunday":yield "7 AM";
+			default:yield "5 AM";
+			};
+			System.out.println(alarm);			
+		}
+	}
+
+}

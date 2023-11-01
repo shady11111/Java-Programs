@@ -1,0 +1,31 @@
+package com.example.basic.patterns;
+
+import java.util.Scanner;
+
+public class Diamond {
+
+	public static void main(String[] args) {
+		try (Scanner scn = new Scanner(System.in)) {
+			System.out.println("Enter the number for the size:");
+			int size = scn.nextInt();
+			int spaces = size - 1;
+			int stars = 1;
+			for (int i = 1; i <= size; i++) {
+				for (int j = 1; j <= spaces; j++) {
+					System.out.print("  ");
+				}
+				for (int j = 1; j <= stars; j++) {
+					System.out.print("* ");
+				}
+				if (i <= size / 2) {
+					stars += 2;
+					spaces--;
+				} else {
+					stars -= 2;
+					spaces++;
+				}
+				System.out.println();
+			}
+		}
+	}
+}
