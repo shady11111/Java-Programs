@@ -1,7 +1,6 @@
-package com.example.Array;
+package com.example.Array.ElementSearch;
 
 public class BinarySearchRecursive {
-
 	public static void main(String[] args) {
 		int[] a= {0,1,3,4,5,6,7,8};
 		System.out.println(binarySearch(a, 9, 0, a.length-1));

@@ -1,4 +1,4 @@
-package com.example.Array;
+package com.example.Array.ElementSearch;
 
 public class BinarySearch {
 //Binary Search is only for sorted arrays
