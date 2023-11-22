@@ -20,10 +20,6 @@ public class ObjectReferenceSharingorReferenceAliasing {
 	}
 }
 
-class Circle {
-	int radius;
-}
-
 
 
 

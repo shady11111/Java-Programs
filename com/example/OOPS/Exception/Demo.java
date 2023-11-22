@@ -11,11 +11,12 @@ public class Demo {
 			System.out.println(j);
 		}
 		catch(Exception e){
-			System.out.println("Wrong"+e);
+			System.out.println("Wrong calculation, says -- "+e);
 		}
 //		finally {
 //			System.out.println(j);
 //		}
+		System.out.println(j);
 	}
 
 }

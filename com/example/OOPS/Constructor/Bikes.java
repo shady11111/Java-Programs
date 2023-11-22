@@ -38,5 +38,4 @@ class Bike {
 	void display() {
 		System.out.println(model + " bike of color " + color + ", has a registraion number " + registrationNumber);
 	}
-
 }
