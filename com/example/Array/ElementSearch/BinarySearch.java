@@ -2,6 +2,7 @@ package com.example.Array.ElementSearch;
 
 public class BinarySearch {
 //Binary Search is only for sorted arrays
+// Time Complexity - Big O - O(log n) - Logarithmic time
 	public static void main(String[] args) {
 		int[] a= {0,2,4,6,9};
 		System.out.println(binarySearch(a,40));
