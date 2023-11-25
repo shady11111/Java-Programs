@@ -1,4 +1,4 @@
-package com.example.Array;
+package com.example.Array.TwoDArray;
 
 public class PascalPattern {
 	public static void main(String[] args) {

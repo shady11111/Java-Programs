@@ -1,4 +1,4 @@
-package com.example.basic.patterns;
+package com.example.Array.TwoDArray;
 
 public class Spiral {
 
@@ -37,4 +37,5 @@ public class Spiral {
 		}
 		return a;
 	}
+
 }
