@@ -25,18 +25,18 @@ public class Demo {
 //		hundredClub.forEach(person->System.out.println(person.name));
 		
 		List<Person> hundredClub=people.stream().filter(person->person.billions>=100).
-												 collect(Collectors.toList());
+								 collect(Collectors.toList());
 		hundredClub.forEach(person->System.out.println(person.name));
 		
 		System.out.println("Sorted By Name:");
 		List<Person> sortedByName=people.stream().sorted(Comparator.comparing(person->person.name)).
-										 		  collect(Collectors.toList());
+								  collect(Collectors.toList());
 			sortedByName.forEach(person->System.out.println(person.name));
 		
 		System.out.println("Hundred Dollar Club Sorted By Name:");
 		List<Person> hundredClubSortedByName=people.stream().filter(person->person.billions>=100).
-															 sorted(Comparator.comparing(person->person.name)).
-															 collect(Collectors.toList());
+											 sorted(Comparator.comparing(person->person.name)).
+											 collect(Collectors.toList());
 		hundredClubSortedByName.forEach(person->System.out.println(person.name));
 	}
 }
