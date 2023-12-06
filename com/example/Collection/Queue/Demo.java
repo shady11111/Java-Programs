@@ -27,6 +27,7 @@ public class Demo {
 		queueLinkedList.add(40);
 		queueLinkedList.add(30);
 		queueLinkedList.add(10);
+		queueLinkedList.add(10);
 		while(!queueLinkedList.isEmpty()) {
 			System.out.print(queueLinkedList.poll()+" ");
 		}
