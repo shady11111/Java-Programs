@@ -8,6 +8,12 @@ public class Demo {
 		G g1=new G();
 		g1.m1(f1);
 		g1.m1(f2);
+		
+//		Output:
+//			36
+//			6
+//			54
+//			6
 	}
 
 }

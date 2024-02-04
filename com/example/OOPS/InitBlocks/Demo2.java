@@ -5,6 +5,19 @@ public class Demo2 {
 	public static void main(String[] args) {
 		new C();
 		new D();
+		
+//		Output:
+//			C-static
+//			C-non-static
+//			C-non-static 2
+//			C-Constructor
+//			D-static
+//			C-non-static
+//			C-non-static 2
+//			C-Constructor
+//			D-non-static
+//			D-non-static 2
+//			D-Constructor
 	}
 
 }

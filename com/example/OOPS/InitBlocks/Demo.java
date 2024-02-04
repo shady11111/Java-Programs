@@ -5,6 +5,15 @@ public class Demo {
 	public static void main(String[] args) {
 		new A();
 		new A(5);
+		
+//		Output:
+//			static
+//			non-static
+//			non-static 2
+//			Constructor
+//			non-static
+//			non-static 2
+//			Constructor with integer parameter
 	}
 
 }

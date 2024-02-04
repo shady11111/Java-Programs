@@ -16,6 +16,7 @@ public class AnimalBehavior {
 //		a1.play(); //cannot access subclass only belonging methods
 		a1.move();
 //		Dog d1=(Dog)a1; //ClassCastException(runtime) //no compilation error
+//instance of superclass cannot be downcasted to subclass instance
 //being a reference type of subclass, would like to have access to all methods of subclass,
 //this is not possible with subtype referring to supertype instance
 //		d1.move();

@@ -7,10 +7,10 @@ public class Demo3 {
 		D d2=new E();
 		D d3=new F();
 		F f1=new F();
-		System.out.println(d1.i);
-		System.out.println(d2.i);
-		System.out.println(d3.i);
-		System.out.println(f1.i);
+		System.out.println(d1.i);//1
+		System.out.println(d2.i);//1
+		System.out.println(d3.i);//1
+		System.out.println(f1.i);//3
 	}
 }
 class D{

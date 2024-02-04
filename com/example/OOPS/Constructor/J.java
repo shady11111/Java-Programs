@@ -7,6 +7,12 @@ public class J {
 		K k2=new K(100);
 		k1.display(k2);
 		k1.display(k1);
+		
+//		Output:
+//			10
+//			100
+//			10
+//			10	
 	}
 
 }

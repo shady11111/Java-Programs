@@ -5,13 +5,13 @@ public class Demo1 {
 	public static void main(String[] args) {
 		Base b=new Base();
 		b.inputIJ(2, 4);
-		b.displayIJ();
+		b.displayIJ();//i=2 j=4
 		Derived d=new Derived();
-		d.displayIJ();
+		d.displayIJ();//i=0 j=0
 		d.inputIJ(20,40);
-		d.displayIJ();
+		d.displayIJ();//i=20 j=40
 		d.inputK(50);
-		d.displayK();
+		d.displayK();//k=50
 	}
 
 }

@@ -3,7 +3,7 @@ package com.example.Arrays.ElementSearch;
 public class LinearSearch {
 // Time Complexity - Big O - O(n) - Linear time
 	public static void main(String[] args) {
-		int[] a= {1,2,3,4,5};
+		int[] a= {100,12,3,4,15};
 		System.out.println(linearSearch(a,40));
 		System.out.println(linearSearch(a,4));
 	}

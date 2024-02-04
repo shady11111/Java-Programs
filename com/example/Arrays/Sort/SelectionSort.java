@@ -23,9 +23,9 @@ public class SelectionSort {
 	}
 	static int[] selectionMinimumSort(int [] numbers) {
 //sorting minimum numbers first
-		int minimumIndex=-1;
+//		int minimumIndex=-1;
 		for(int i=0;i<numbers.length-1;i++) {
-			minimumIndex=i;
+			int minimumIndex=i;
 			for(int j=i+1;j<numbers.length;j++) {
 				if(numbers[minimumIndex]>numbers[j]) {
 					minimumIndex=j;					
@@ -44,9 +44,9 @@ public class SelectionSort {
 	}
 	static int[] selectionMaximumSort(int [] numbers) {
 //sorting maximum numbers first
-		int maximumIndex=-1;
+//		int maximumIndex=-1;
 		for(int i=numbers.length-1;i>=1;i--) {
-			maximumIndex=i;
+			int maximumIndex=i;
 			for(int j=i-1;j>=0;j--) {
 				if(numbers[maximumIndex]<numbers[j]) {
 					maximumIndex=j;

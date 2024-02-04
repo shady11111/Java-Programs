@@ -15,7 +15,7 @@ public class Demo5 {
 }
 class Developer{
 //	public void developApp(Laptop gadget) {
-////		System.out.println("coding...");
+//		System.out.println("coding...");
 //		gadget.code();
 //	}	
 	public void developApp(Computer gadget) {

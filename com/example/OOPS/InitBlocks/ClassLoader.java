@@ -12,7 +12,9 @@ public class ClassLoader {
 	static {
 		System.out.println("Static block of ClassLoader");
 	}
-
+//	Output:
+//		Static block of ClassLoader
+//		Static block of Mobile, to initialize staic variables.
 }
 class Mobile{
 	String brand;

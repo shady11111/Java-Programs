@@ -5,7 +5,11 @@ public class NumberOfObjectsCreated {
 	public static void main(String[] args) {
 		new H(5);
 		System.out.println("Number of objects created: " + H.getObjectCount());
-
+		
+//		Output:
+//			H() is called
+//			H(int i) is called
+//			Number of objects created: 1
 	}
 }
 class H{

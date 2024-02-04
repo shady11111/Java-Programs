@@ -1,7 +1,7 @@
 package com.example.OOPS.Interface;
 
 public class Tag {
-
+//Tag Interface
 	public static void main(String[] args) {
 		Washer washer=new Washer();
 		washer.wash(new Phone());

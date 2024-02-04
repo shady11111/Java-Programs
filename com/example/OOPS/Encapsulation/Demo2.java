@@ -4,12 +4,12 @@ public class Demo2 {
 	public static void main(String[] args) {
 		Student s1=Student.newStudentInstance();
 		s1.setName("Z");
-		s1.display();
+		s1.display();//name:Z age:21 ID:1500
 		Student s2=Student.newStudentInstance();
-		s2.display();
-		s1.display();
+		s2.display();//name:null age:21 ID:1500
+		s1.display();//name:Z age:21 ID:1500
 		Student s3=new Student(s2.getAge());
-		s3.display();
+		s3.display();//name:null age:21 ID:0
 	}
 }
 class Student{

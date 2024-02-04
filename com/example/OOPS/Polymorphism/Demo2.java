@@ -7,9 +7,12 @@ public class Demo2 {
 		Rider proRider=new ProRider();
 		Bike bikeKTM=new KTM();
 		KTM ktm=new KTM();
-//if void ride(Bike bike) of Rider is commented out gives compilation error for rider.ride(bikeKTM);
-		rider.ride(bikeKTM); //both overridden method (chooses based on object) and overloaded argument (chosen by the compiler)
-		proRider.ride(ktm);		
+//if ride(Bike bike) of Rider is commented out gives compilation error for rider.ride(bikeKTM);
+		rider.ride(bikeKTM);//Rider rides bike
+//both overridden method (chooses based on object) and overloaded argument (chosen by the compiler)
+		proRider.ride(ktm);//Rider rides KTM
+		rider.ride(ktm);//Rider rides KTM
+		proRider.ride(bikeKTM);//Pro-Rider rides bike
 	}
 }
 class Bike{	
@@ -18,7 +21,7 @@ class KTM extends Bike{
 }
 class Rider{
 	void ride(Bike bike) {
-		System.out.println("Rider rides");
+		System.out.println("Rider rides bike");
 	}
 	void ride(KTM bike) {
 		System.out.println("Rider rides KTM");
@@ -26,6 +29,6 @@ class Rider{
 }
 class ProRider extends Rider{
 	void ride(Bike bike) {
-		System.out.println("Pro rider rides");
+		System.out.println("Pro-Rider rides bike");
 	}
 }

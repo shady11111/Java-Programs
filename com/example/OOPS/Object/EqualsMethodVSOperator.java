@@ -20,7 +20,5 @@ public class EqualsMethodVSOperator {
 		
 		//if equals method of the Object class is not overridden, c1 and c3 addresses are compared and returns false
 		System.out.println(c1.equals(c3));
-		
-		
 	}
 }

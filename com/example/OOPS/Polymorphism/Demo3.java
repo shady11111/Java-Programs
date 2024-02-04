@@ -25,6 +25,12 @@ public class Demo3 {
 //	void m1(Cat c) {
 //		System.out.println("Cat");
 //	}
+	
+	
+//	Output:
+//		primitive type
+//		Animal
+//		Dog
 }
 class Cat extends Animal{
 	

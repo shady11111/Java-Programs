@@ -6,9 +6,9 @@ public class BookTickets {
 
 	public static void main(String[] args) {
 		//TicketBookingApp.bookTickets();
-		//When you close the Scanner using a try-with-resources statement, it also closes the underlying System.in, and you can't reopen it.
-		//That's why you're getting a java.util.NoSuchElementException when you try to use it the second time.
-				//TicketBookingApp.bookTickets();
+//When you close the Scanner using a try-with-resources statement, it also closes the underlying System.in, and you can't reopen it.
+//and hence java.util.NoSuchElementException occurs, when tried to use it the second time.
+		//TicketBookingApp.bookTickets();
 		//to resolve this, let's use Scanner class with try resource block in the main method, instead in the bookTickets.
 		try (Scanner scanner = new Scanner(System.in)) {
 			TicketBookingApp.bookTickets(scanner);

@@ -10,7 +10,9 @@ public class DynamicArray {
 //			array expansion
 			Object[] temp=new Object[a.length+2];
 			System.arraycopy(a, 0, temp, 0, a.length);
+			System.out.println(temp+" "+a);
 			a=temp;
+			System.out.println(a);
 		}
 		a[p++]=o;
 //		a[++p]=o;		

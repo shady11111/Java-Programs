@@ -13,9 +13,9 @@ public class Demo {
 		catch(Exception e){
 			System.out.println("Wrong calculation, says -- "+e);
 		}
-//		finally {
-//			System.out.println(j);
-//		}
+		finally {
+			System.out.println(j);
+		}
 		System.out.println(j);
 	}
 

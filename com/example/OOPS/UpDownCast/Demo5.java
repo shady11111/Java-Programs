@@ -4,23 +4,23 @@ public class Demo5 {
 
 	public static void main(String[] args) {
 		X x1=new X();
-		x1.show1();
+		x1.show1();//in show1 X
 		
 		X x2=new Y();
-		x2.show1();
+		x2.show1();//in show1 Y
 		
 		x2=(X)new Y();
-		x2.show1();
+		x2.show1();//in show1 Y
 		
 		Y y1=new Y();
-		y1.show1();
-		y1.show2();
+		y1.show1();//in show1 Y
+		y1.show2();//in show2 Y
 		X x3=(X)y1;
-		x3.show1();
+		x3.show1();//in show1 Y
 		
 		Y y2=(Y)x2;
-		y2.show1();
-		y2.show2();
+		y2.show1();//in show1 Y
+		y2.show2();//in show2 Y
 	}
 
 }

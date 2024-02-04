@@ -10,6 +10,15 @@ public class MainMethodOverloading {
         main();
         main(42);
         main("Hello", "World");
+        
+//        Output:
+//        	Standard main method
+//        	Empty main method
+//        	Overloaded main method with int parameter
+//        	Number: 42
+//        	Overloaded main method with two String parameters
+//        	Arg1: Hello
+//        	Arg2: World
 	}
 	public static void main() {
 		System.out.println("Empty main method");

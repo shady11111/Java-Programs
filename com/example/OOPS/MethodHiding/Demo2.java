@@ -9,7 +9,7 @@ public class Demo2 {
 //		c1.m1(); //prints C
 //		c2.m1(); //prints C
 //		c3.m1(); //prints C
-		C.m1();
+		C.m1();//C
 	}
 
 }

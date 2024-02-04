@@ -6,9 +6,9 @@ public class OverloadedConstructor {
 		I i1=new I();
 		I i2=new I(5);
 		I i3=new I(5, true);
-		System.out.println(i1.getValue());
-		System.out.println(i2.getValue());
-		System.out.println(i3.getValue());
+		System.out.println(i1.getValue());//0
+		System.out.println(i2.getValue());//5
+		System.out.println(i3.getValue());//10
 	}
 
 }

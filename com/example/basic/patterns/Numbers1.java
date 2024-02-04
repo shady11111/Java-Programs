@@ -20,7 +20,7 @@ public class Numbers1 {
 					for (int k = length + 1 - size; k <= length; k++) {
 						System.out.print(k + " ");
 					}
-					length++;
+//					length++;
 					System.out.println();
 				}
 			}

@@ -7,6 +7,11 @@ public class Calculator2 {
 		//here (int... number) is not the exact match, (int num) is the exact match
 		m1(5,6);
 		m1();
+		
+//		Output:
+//			5
+//			5
+//			6
 	}
 	public static void m1(int... number) {
 		for(int i=0;i<number.length;i++)

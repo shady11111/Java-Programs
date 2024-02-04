@@ -5,9 +5,9 @@ public class Usingthis {
 	public static void main(String[] args) {
 		E e1=new E(5);
 		E e2=new E(98,75);
-		System.out.println(e1.i);
-		System.out.println(e2.i);
-		System.out.println(e2.j);
+		System.out.println(e1.i);//5
+		System.out.println(e2.i);//98
+		System.out.println(e2.j);//0
 	}
 
 }

@@ -22,7 +22,7 @@ class X implements I1,I2{
 
 	@Override
 	public void m1() {
-		System.out.println("A");
+		System.out.println("X");
 	}
 	@Override
 	public boolean m2() {

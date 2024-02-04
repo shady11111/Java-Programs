@@ -5,7 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		A a1=A.getObjectA();
 		A a2=A.getObjectA();
-		System.out.println(a1==a2); //same object go created, hence references have same address
+		System.out.println(a1==a2); //same object got created, hence references have same address
 		B b1=new B();
 		B b2=new B();
 		System.out.println(b1==b2);

@@ -7,7 +7,7 @@ public class Demo3 {
 		h1.setName("A");
 //		h1.setAge(11,h1);
 		h1.setAge(11);
-		System.out.println(h1.getName()+" : "+h1.getAge());
+		System.out.println(h1.getName()+" : "+h1.getAge());//A : 11
 	}
 }
 class Human{

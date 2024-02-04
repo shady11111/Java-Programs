@@ -22,12 +22,12 @@ public class TypeComparision2 {
 	}
 }
 interface AirVehicle {
-    void drive();
+    void fly();
 }
 
 class Chopper implements AirVehicle {
-    public void drive() {
-        System.out.println("Car is driving");
+    public void fly() {
+        System.out.println("Chopper is flying");
     }
 }
 class Truck{

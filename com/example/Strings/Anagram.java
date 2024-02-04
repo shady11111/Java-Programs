@@ -16,7 +16,7 @@ public class Anagram {
 		s2=s2.toLowerCase();
 		while(s1.length()==s2.length()) {
 			char character=s1.charAt(0);
-			s1=s1.replace(character+"","");
+			s1=s1.replace(String.valueOf(character),"");
 			s2=s2.replace(character+"","");
 			if(s1.length()==0&&s2.length()==0)
 				return true;

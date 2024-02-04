@@ -4,7 +4,11 @@ public class Demo2 {
 
 	public static void main(String[] args) {
 		D d= new D();
-		d.m1();		
+		d.m1();
+		
+//		Output:
+//			C
+//			0
 	}
 
 }

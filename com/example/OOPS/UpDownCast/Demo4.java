@@ -5,6 +5,11 @@ public class Demo4 {
 	public static void main(String[] args) {
 		Drive d = new Drive();
 		d.drive(new Harley_Davidson());
+		
+//		Output:
+//			Harley Davidson starts
+//			Harley Davidson accelerates
+//			Harley Davidson stops
 	}
 
 }
