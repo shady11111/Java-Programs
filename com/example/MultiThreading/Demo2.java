@@ -27,7 +27,10 @@ public class Demo2 {
 				}
 			}
 		};
-		
+//		x.run();
+//		y.run();
+//the code inside the run() methods of x and y will be executed sequentially on the main thread, not concurrently.
+//So, first, the code inside the run() method of x will run until completion, then the code inside the run() method of y will run.		
 		Thread t1=new Thread(x);
 		Thread t2=new Thread(y);
 		

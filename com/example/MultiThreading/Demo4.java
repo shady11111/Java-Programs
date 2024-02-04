@@ -7,9 +7,8 @@ public class Demo4 {
 		t.start();
 		for(int i=1;i<=10;i++)
 			System.out.println((char)i+" Main");
-		Thread.sleep(500); //main thread is sleeping for 500 milliseconds.
-//the main method is executed by the main thread,
-//and the Thread.sleep(100) in the main method will make the main thread sleep
+		t.join(); // Wait for thread t to finish before proceeding
+		// synchronizing the main thread's execution with the T2 thread's sleep
 	}
 }
 class T2 extends Thread{
